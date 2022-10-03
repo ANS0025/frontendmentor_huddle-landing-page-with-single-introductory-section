@@ -10,18 +10,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    width: 80rem;
+    width: 88.89%;
     margin-top: 4rem;
 }
 main{
-    width: 80rem;
+    width: 88.89%;
     margin-top: 6.5rem;
     display: flex;
     flex-direction: row;
     gap: 3.6875rem;
 }
 .main-txt{
-    width: 32.5rem;
+    width: 40.62%;
     margin-top: 2rem;
 }
 .main-txt h1{
@@ -57,7 +57,7 @@ main{
     cursor: pointer;
 }
 footer{
-    width: 80rem;
+    width: 88.89%;
     height: 2.5rem;
     margin-top: 1.6875rem;
     margin-bottom: 2.5rem;
@@ -83,9 +83,10 @@ footer{
     filter: invert(61%) sepia(44%) saturate(5834%) hue-rotate(293deg) brightness(100%) contrast(104%);
 }
 
-/* モバイル版
+
+/* タブレット版
 ------------------------------------------------------- */
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1214px){
     body{
         display: flex;
         flex-direction: column;
@@ -98,22 +99,29 @@ footer{
         font-family: 'Poppins', sans-serif;
     }
     header{
-        width: 19rem;
+        width: 81.06%;
         margin-top: 2.2625rem;
     }
     .logo{
         width: 7.5rem;
     }
     main{
-        width: 19rem;
+        width: 81.06%;
         margin-top: 4.3625rem;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 0rem;
     }
+    .hero{
+        width: 80%;
+    }
     .main-txt{
-        width: inherit;
+        width: 100%;
         margin-top: 3.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
     .main-txt h1{
@@ -124,6 +132,7 @@ footer{
         line-height: 2.25rem;
     }
     .main-txt p{
+        width: 95%;
         color: #FFFFFF;
         margin: 1rem 0 0 0;
         font-weight: 400;
@@ -149,7 +158,110 @@ footer{
         cursor: pointer;
     }
     footer{
-        width: 19rem;
+        width: 81.06%;
+        height: 2.5rem;
+        margin-top: 4rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0.6563rem;
+    }
+    .sns{
+        width: 1.7188rem;
+        height: 1.7375rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border: 0.0735rem solid #FFFFFF;
+        border-radius: 50%;
+    }
+    .sns i{
+        filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(6deg) brightness(106%) contrast(102%);
+    }
+    .sns:hover{
+        filter: invert(61%) sepia(44%) saturate(5834%) hue-rotate(293deg) brightness(100%) contrast(104%);
+    }
+}
+
+
+
+/* モバイル版
+------------------------------------------------------- */
+@media (max-width: 767px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #684BB1;
+        background-image: url(images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top 0rem left 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    header{
+        width: 81.06%;
+        margin-top: 2.2625rem;
+    }
+    .logo{
+        width: 7.5rem;
+    }
+    main{
+        width: 81.06%;
+        margin-top: 4.3625rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+    .hero{
+        width: 100%;
+    }
+    .main-txt{
+        width: 100%;
+        margin-top: 3.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main-txt h1{
+        width: inherit;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .main-txt p{
+        width: 95%;
+        color: #FFFFFF;
+        margin: 1rem 0 0 0;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: 'Open Sans';
+    }
+    .register{
+        width: 12.5rem;
+        height: 2.5rem;
+        margin-top: 1.5rem;
+        background: #FFFFFF;
+        border: none;
+        box-shadow: 0.125rem 0.25rem 0.5625rem 0.1875rem rgba(0, 0, 0, 0.258633);
+        border-radius: 1.25rem;
+        color: #684BB1;
+        font-size: 0.75rem;
+    }
+    .register:hover{
+        background: #E880E8;
+        color: #FFFFFF;
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+    footer{
+        width: 81.06%;
         height: 2.5rem;
         margin-top: 4rem;
         margin-bottom: 2.5rem;
