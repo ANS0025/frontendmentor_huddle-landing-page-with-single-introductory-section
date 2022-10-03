@@ -10,45 +10,45 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    width: 1280px;
-    margin-top: 64px;
+    width: 80rem;
+    margin-top: 4rem;
 }
 main{
-    width: 1280px;
-    margin-top: 104px;
+    width: 80rem;
+    margin-top: 6.5rem;
     display: flex;
     flex-direction: row;
-    gap: 59px;
+    gap: 3.6875rem;
 }
 .main-txt{
-    width: 520px;
-    margin-top: 32px;
+    width: 32.5rem;
+    margin-top: 2rem;
 }
 .main-txt h1{
-    width: 487px;
+    width: 30.4375rem;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
 }
 .main-txt p{
     color: #FFFFFF;
-    margin: 24px 0 0 0;
+    margin: 1.5rem 0 0 0;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
     font-family: 'Open Sans';
 }
 .register{
-    width: 200px;
-    height: 56px;
-    margin-top: 24px;
+    width: 12.5rem;
+    height: 3.5rem;
+    margin-top: 1.5rem;
     background: #FFFFFF;
     border: none;
-    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
-    border-radius: 28px;
+    box-shadow: 0.125rem 0.25rem 0.5625rem 0.1875rem rgba(0, 0, 0, 0.258633);
+    border-radius: 1.75rem;
     color: #684BB1;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .register:hover{
     background: #E880E8;
@@ -57,23 +57,23 @@ main{
     cursor: pointer;
 }
 footer{
-    width: 1280px;
-    height: 40px;
-    margin-top: 27px;
-    margin-bottom: 40px;
+    width: 80rem;
+    height: 2.5rem;
+    margin-top: 1.6875rem;
+    margin-bottom: 2.5rem;
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
 }
 .sns{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    border: 1.17647px solid #FFFFFF;
+    border: 0.0735rem solid #FFFFFF;
     border-radius: 50%;
 }
 .sns i{
@@ -94,53 +94,53 @@ footer{
         background-image: url(images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: top 0px left 0;
+        background-position: top 0rem left 0;
         font-family: 'Poppins', sans-serif;
     }
     header{
-        width: 304px;
-        margin-top: 36.2px;
+        width: 19rem;
+        margin-top: 2.2625rem;
     }
     .logo{
-        width: 120px;
+        width: 7.5rem;
     }
     main{
-        width: 304px;
-        margin-top: 69.8px;
+        width: 19rem;
+        margin-top: 4.3625rem;
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 0rem;
     }
     .main-txt{
         width: inherit;
-        margin-top: 60px;
+        margin-top: 3.75rem;
         text-align: center;
     }
     .main-txt h1{
         width: inherit;
         color: #FFFFFF;
         font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
     }
     .main-txt p{
         color: #FFFFFF;
-        margin: 16px 0 0 0;
+        margin: 1rem 0 0 0;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
         font-family: 'Open Sans';
     }
     .register{
-        width: 200px;
-        height: 40px;
-        margin-top: 24px;
+        width: 12.5rem;
+        height: 2.5rem;
+        margin-top: 1.5rem;
         background: #FFFFFF;
         border: none;
-        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
-        border-radius: 20px;
+        box-shadow: 0.125rem 0.25rem 0.5625rem 0.1875rem rgba(0, 0, 0, 0.258633);
+        border-radius: 1.25rem;
         color: #684BB1;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     .register:hover{
         background: #E880E8;
@@ -149,23 +149,23 @@ footer{
         cursor: pointer;
     }
     footer{
-        width: 304px;
-        height: 40px;
-        margin-top: 64px;
-        margin-bottom: 40px;
+        width: 19rem;
+        height: 2.5rem;
+        margin-top: 4rem;
+        margin-bottom: 2.5rem;
         display: flex;
         justify-content: center;
         flex-direction: row;
-        gap: 10.5px;
+        gap: 0.6563rem;
     }
     .sns{
-        width: 27.5px;
-        height: 27.8px;
+        width: 1.7188rem;
+        height: 1.7375rem;
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        border: 1.17647px solid #FFFFFF;
+        border: 0.0735rem solid #FFFFFF;
         border-radius: 50%;
     }
     .sns i{
